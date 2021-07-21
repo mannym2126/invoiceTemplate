@@ -9,56 +9,99 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/site.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <table class="table table-striped table-bordered">
-            <thead>
-                <tr>
-                    <th>Service</th>
-                    <th>Description</th>
-                    <th>Rate</th>
-                    <th>QTY</th>
-                    <th>Amount</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Design</td>
-                    <td>Website Design</td>
-                    <td>$60.00</td>
-                    <td>10</td>
-                    <td>$600.00</td>
-                </tr>
-                <tr>
-                    <td>Development</td>
-                    <td>Wewbsite Development</td>
-                    <td>$150.00</td>
-                    <td>10</td>
-                    <td>$1,500.00</td>
-                </tr>
-                <tr>
-                    <td>Deployment</td>
-                    <td>Deployment and Hosting</td>
-                    <td>$450.00</td>
-                    <td>11</td>
-                    <td>$450.00</td>
-                </tr>
-                <tr>
-                    <td colspan="4">Sub Total:</td>
-                    <td>$2,550.00</td>
-                </tr>
-                <tr>
-                    <td colspan="4">Tax:</td>
-                    <td>$0.00</td>
-                </tr>
-                <tr>
-                    <td colspan="4">Sub Total:</td>
-                    <td>$2,550.00</td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="container border mb-5">
+        <div class="row p-3">
+            <div class="col-6 col-md-10">
+                <img src="/img/IdeaFoundryLogo.png" alt="Idea Foundry Logo" class="img-fluid w-75 mt-5">
+            </div>
+            <div class="col-6 col-md-2 d-flex flex-column align-items-end">
+                <button class="btn btn-primary mb-3" onclick="window.print();return false;">Print this page</button>
+                <h5 class="pt-5">
+                    Client No: 4908
+                </h5>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <strong>Date:</strong> 05/12/2019
+            </div>
+            <div class="col d-flex flex-column align-items-end">
+                <span><strong>Invoice No:</strong> 19005</span>
+            </div>
+        </div>
+        <hr>
+        <div class="row mb-3">
+            <div class="col">
+                <div>
+                    <strong>Invoice To:</strong><br>
+                    Mark Davis<br>
+                    3333 Al Davis Way<br>
+                    Las Vegas, NV 89118
+                </div>
+            </div>
+            <div class="col d-flex flex-column align-items-end">
+                <div>
+                    <strong>Pay To:</strong><br>
+                    Idea Foundry, Irc.<br>
+                    2705 N. Enterprise St<br>
+                    Kernersville, NC 27284
+                </div>
+            </div>
+        </div>
+        <div class="tableScroll">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Description</th>
+                        <th>Rate</th>
+                        <th>QTY</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Design</td>
+                        <td>Website Design</td>
+                        <td>$60.00</td>
+                        <td>10</td>
+                        <td>$600.00</td>
+                    </tr>
+                    <tr>
+                        <td>Development</td>
+                        <td>Wewbsite Development</td>
+                        <td>$150.00</td>
+                        <td>10</td>
+                        <td>$1,500.00</td>
+                    </tr>
+                    <tr>
+                        <td>Deployment</td>
+                        <td>Deployment and Hosting</td>
+                        <td>$450.00</td>
+                        <td>11</td>
+                        <td>$450.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Sub Total:</td>
+                        <td>$2,550.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Tax:</td>
+                        <td>$0.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Sub Total:</td>
+                        <td>$2,550.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p><strong>NOTE:</strong> This is a computer generated receipt and does not require a physical signature.</p>
     </div>
 
     <!-- JavaScript Bundle with Popper -->
